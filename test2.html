@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!--lang属性で、ページのコンテンツが日本語であることを明示している-->
+ <html lang="ja">
+ <!--headとは、ブラウザ画面に表示しない各種設定を記述-->
+ <head>
+    <!--viewportとは、表示領域のことで、ブラウザにおける仮想のカンバスサイズを決めて、サイトの表示の仕方を制御する役割があります。-->
+    <!--device-widthとは、スマホ、PCによって自動的に表示領域の横幅を合わせる。-->
+    <!--device-heightとは、縦幅-->
+    <!--initial-scale (初期倍率)、最初に表示されるサイトの倍率-->
+    <!--user-scalable (ユーザーのズーム操作の可否)、画面のズームできるかどうか。yes/no-->
+ <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+ <!--ファイルのエンコードの種類が「UTF-8」であることを明示-->
+ <meta charset="UTF-8">
+
+ <meta name="keywords" content="">
+ <meta name="description" content="">
+ <title>23卒 - 就活も大学も、もっと楽しもう。</title>
+ <!--HTMLにCSSのファイルの読み込み
+　　　rel=ファイル名
+　　　heref=URL-->
+ <link rel="stylesheet" href="csstest.css">
+ <!--google fontsのURL挿入（文字フォントを選べる）-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!--fontawesomeのキーコード-->
+<script src="https://kit.fontawesome.com/93f18e9efe.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+ </head>
+ <body class="nohero">
+   <!--サイトの上（ヘッダー）の部分の構造-->
+   <header>
+     <div class="container">
+       <div class="container-small">
+       <a href="test1.html" class="headA">就活攻略法</a>
+       <button type="button" class="headC">
+         <span class="fas fa-bars" title="MENU"></span>
+       </button>
+     </div>
+       <nav class="headB">
+         <ul>
+           <li><a href="#">トップ</a></li>
+           <li><a href="#">コンテンツ</a></li>
+           <li><a href="#">ABOUT</a></li>
+           <li><a href="#">お問い合わせ</a></li>
+         </ul>
+       </nav>
+     </div>
+   </header>
+   <article class="post">
+     <div class="container">
+       <div class="bread">
+         <ol>
+           <li><a href="test1.html">トップ</a></li>
+            <li><a href="test2.html">記事</a></li>
+         </ol>
+       </div>
+       <h1>就職活動</h1>
+       <img src="img/post.png" alt="">
+       <p>2023年卒の就活は、政府の主導により、これまで通りのスケジュールが維持されます。企業がオンラインを通じた情報の配信、説明会やインターンシップを行うケースが増えているので、更新される情報などに注意しながら、早め早めに就活準備に取り組んでいきましょう。</p>
+       <p>就活準備は、自分を知ること（自己分析）と、業界や企業を知ること（仕事研究）が不可欠です。インターンシップやＯＢ・ОＧ訪問を通して、自分の職業適性を確認することが大切です。</p>
+     </div>
+   </article>
+ <footer>
+    <div class="container">
+      <div class="footA">
+        <h2>就活攻略法</h2>
+        <p>
+          〒000-0000 沖縄県中頭郡西原町000-0<br>
+          <a href="#">http://syuukatukouryuakuhou.com/ </a>
+        </p>
+        <nav class="footD">
+        <ul>
+         <li>
+          <a href="#">
+            <span class="fab fa-facebook-square"></span>
+          </a>
+         </li>
+         <li>
+          <a href="#">
+            <span class="fab fa-google-plus-g"></span>
+          </a>
+         </li>
+         <li>
+          <a href="#">
+            <span class="fab fa-twitter-square"></span>
+          </a>
+         </li>
+         <li>
+          <a href="#">
+            <span class="fab fa-instagram"></span>
+          </a>
+         </li>
+         <li>
+          <a href="#">
+            <span class="fab fa-youtube"></span>
+          </a>
+         </li>
+        </ul>
+        </nav>
+      </div>
+      <nav class="footB">
+        <div>
+         <h3>ABOUT</h3>
+         <ul>
+          <li><a href="#">設立</a></li>
+          <li><a href="#">所在地</a></li>
+          <li><a href="#">地図</a></li>
+          <li><a href="#">スタッフ</a></li>
+         </ul>
+       </div>
+       <div>
+        <h3>Info</h3>
+        <ul>
+         <li><a href="#">ES</a></li>
+         <li><a href="#">インターン情報</a></li>
+         <li><a href="#">本選考情報</a></li>
+         <li><a href="#">体験談</a></li>
+        </ul>
+       </div>
+       <div>
+        <h3>CONTENTS</h3>
+         <ul>
+          <li><a href="#">お知らせ</a></li>
+          <li><a href="#">ビジネス</a></li>
+          <li><a href="#">プロフィール</a></li>
+          <li><a href="#">note</a></li>
+         </ul>
+        </div>
+      </nav>
+      <div class="footC">
+        ©️ 就活攻略法 crop.ALL right reserved.
+      </div>
+    </div>
+ </footer>
+ <!--jqueryの読み込み-->
+ <script type="text/javascript" src="js/jQuery-3.6.0.min.js"></script>
+ <!--scriptの読み込み-->
+ <script src="js/javatest.js"></script>
+ </body>
